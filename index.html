@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Longboard</title>
+    <style>
+    body{
+        background-color: yellow;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Longboard</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarsExample01">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tiposDeLong">Modalidades</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="#tiposDeLong2">Downhill-Slide</a>
+                <a class="dropdown-item" href="#tiposDeLong3">Freestyle</a>
+                <a class="dropdown-item" href="#tiposDeLong4">Slalom</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container c1">
+        <h3 class="my-4">História</h3>
+        <div class="row">
+            <div class="col-md-8">
+                    <p>A prática do skate longboard surgiu na Califórnia no início dos anos 1950, quando os skatistas procuravam um esporte que pudesse conectar o snowboard, skate e surf. ...
+                         Além disso, o skate longboard tornou-se um meio de transporte sofisticado e atraente, proporcionando maior liberdade nos movimentos.
+                    </p>
+            </div>
+            <div class="col-md-4"><img src="img/home/bandeira.png" alt="responsive-image"></div>
+        </div>
+      </div>
+
+      <div class="container c2 my-2">
+        <!--Não sei porque essa div do carousel fica de fora do container c2 -->
+        <div id="myCarousel" class="carousel slide"
+        data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel"
+                data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel"
+                data-slide-to="1"></li>
+                <li data-target="#myCarousel"
+                data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" >
+                    <img src="img/home/skate.jpg" alt="responsive-image">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/home/skate2.jpg" alt="responsive-image">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/home/skate3.jpg" alt="responsive-image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container c3 my-3">
+        <h3 id="tiposDeLong" class="py-3">Modalidades</h3>
+
+        <h3  class="py-1 text-dark">Speed</h3>
+        <div class="row" id="tiposDeLong1">
+                <div class="col-md-8"><img src="img/modalidades/downhill.jpg" alt="responsive-image"></div>  <br>
+                <div class="col-md-4"><p class="bg-dark text-light">O speed é a modalidade mais arriscada, o skatista desce ladeira reta, <br> 
+                    com o objetivo de atingir a maior velocidade possível, chegando passar de 100 km/h.<br>
+                    O shape deve ser de 40 polegadas, trucks baixos entre 45º e 35º, as rodas variam de acordo com o morro.</p></div>
+              </div>
+        <h3 class="py-2 text-dark">Downhill Slide</h3>
+        <div class="row"  id="tiposDeLong2">
+                <div class="col-md-8"><img src="img/modalidades/downhill-slide.jpg" alt="responsive-image"></div>
+                <div class="col-md-4"><p class="bg-dark text-light">A modalidade Downhill slide é uma das mais conhecidas do longboard,  <br> 
+                    ela consiste em descer ladeiras, fazendo slides agressivos, assim como todas, essa modalidade <br> 
+                     requer muita técnica e equipamentos apropriados: capacete, joelheira, cotoveleira, luva própria  <br> 
+                     para slide. Os shapes costumam ter 35 polegadas, as rodas são muito duras e pequenas, os trucks  <br> 
+                     tem angulação altas e são pequenos.
+                    </p></div>
+        </div>
+        <h3 class="py-2 text-dark">Freestyle</h3>
+            <div class="row"  id="tiposDeLong3">
+                <div class="col-md-8"><img src="img/modalidades/freestyle.jpg" alt="responsive-image"></div>
+                <div class="col-md-4"><p class="bg-dark text-light">Manobras, pulos, slides rápidos, saltos em bancos, manuais, <br>
+                    grinds, e principalmente improvisar, é feito no freestyle.<br>
+                        O shape precisa ter tail, ser flexível, resistente e leve.<br> 
+                        Os truks geralmente são de 50 graus, que fazer bem as curvas e são resistentes.<br>
+                         As rodas devem ser pequenas...</p></div>
+            </div>
+        <h3  class="py-2 text-dark">Slalom</h3>
+        <div class="row" id="tiposDeLong4">
+                <div class="col-md-8"><img src="img/modalidades/slalom.jpg" alt="responsive-image"></div>
+                <div class="col-md-4">
+                    <p class="bg-dark text-light">A intenção é desviar de obstáculos, zig zags super rápidos entre cones,<br> 
+                    eu acho muito difícil, requer velocidade, habilidade e equilibrio.<br>
+                        Os trucks recomendados devem ser altos e curtos, girar muito e <br>
+                        ter pouca estabilidade em alta velocidade, o shape por volta de<br> 
+                        umas 33 polegadas, rodas finas e macias.</p></div>
+        </div>
+    </div>
+
+    <div class="container c4 my-5 text-center" id="contato">
+        <h4>Deixe o seu contato</h4>
+        <form id="formExemplo" data-toggle="validator" role="form">
+                <div class="form">
+                  <label for="textNome" class="control-label">Nome</label>
+                  <input id="textNome" class="form-control" placeholder="Digite seu Nome..." type="text">
+                </div>
+                
+                <div class="form">
+                  <label for="inputEmail" class="control-label">Email</label>
+                  <input id="inputEmail" class="form-control" placeholder="Digite seu E-mail" type="email">
+                </div>
+                 
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Marque este item.
+                  </label>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+    </div>
+    
+    <footer class="pt-1 my-md-0 pt-md-0 border-top bg-light">
+            <div class="container c4 mt-5">
+            <div class="row">
+              <div class="col-3 col-md">
+                <img class="mb-2 mx-1" src="img/home/longboardIco.png.png" alt="" width="50" height="50">
+                <small class="d-block mb-3 mx-1 text-muted">&copy; 2022</small>
+              </div>
+              <div class="col-3 col-md">
+                  <div class="row">      
+                   <ul class="list-unstyled text-small">
+                    <h6 class="text-center">Telefone</h6>
+                    <p class="text-center"> <img src="img/home/telefone.png" class="img-fluid float-center" alt="Responsive image"  width="40px" height="40px"><p'>&nbsp;&nbsp;&nbsp;21 9994-3451</p></p>  
+                  </div>
+                   </ul>
+                </div>
+                
+                <div class="col-3 col-md">
+                 <div class="row">
+                  <ul class="list-unstyled text-small">
+                    <h6 class="text-center">WhatsApp</h6>
+                    <p class="text-center"><img src="img/home/WhatsApp.png" class="img-fluid float-center" alt="Responsive image" width="40px" height="40px"><p'>&nbsp;&nbsp;&nbsp;21 9994-3452</p></p> 
+                 </div>
+                  </ul>
+              </div>
+              
+            </div>
+        </div> 
+       
+
+    <!--BootStrap Script-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+</body>
+</html>
